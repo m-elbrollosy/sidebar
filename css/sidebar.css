@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "msb";
+    src: url("./../webfonts/en/msb.ttf");
+}
+body {
+    font-family: "msb";
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+i {
+    cursor: pointer;
+}
+li {
+font-size: 1.7rem;
+
+}
+#open-sidebar {
+    position: relative;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    left: 75px;
+    /* left: 250px; */
+    cursor: pointer;
+    transition: 0.7s;
+}
+.header {
+    background: url("./../imgs/cells.webp");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.sidebar {
+    /* margin-left: -75px; */
+    position: fixed;
+    flex-direction: column;
+    backdrop-filter: blur(3px);
+    background: rgba(255, 163, 152, 0.2);
+    color: aliceblue;
+    width: 75px;
+    height: 100vh;
+    transition: 0.75s;
+}
+
+.sidebar .user {
+    /* width: fit-content; */
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.5rem auto;
+}
+.sidebar .user img {
+    width: 4rem;
+    height: 4rem;
+}
+.sidebar .user .text {
+    display: none;
+   padding: 0.2rem;
+    text-align: start;
+    transition: 1s;
+}
+.sidebar .user .text h3 {
+    margin: 0;
+}
+.sidebar .user .text p {
+    margin: 0;
+}
+.sidebar .user i {
+    display: none;
+    font-size: 1.6rem;
+    color: rgb(145, 241, 18);
+    transition: 0.75s;
+}
+ul li span {
+    display: none;
+}
+.sidebar ul:first-of-type {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ 
+}
+.sidebar ul:first-of-type li {
+padding: 1rem;
+}
+.sidebar ul:nth-of-type(2) {
+    width: 80%;
+    margin: 1rem auto;
+}
+.sidebar ul:nth-of-type(2) li{
+padding: 0.7rem;
+}
