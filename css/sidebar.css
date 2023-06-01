@@ -14,6 +14,8 @@ i {
 }
 li {
 font-size: 1.7rem;
+    display: flex;
+    flex-wrap: nowrap;
 
 }
 #open-sidebar {
