@@ -77,6 +77,7 @@ font-size: 1.7rem;
 }
 ul li span {
     display: none;
+    margin-left: 0.3rem;
 }
 .sidebar ul:first-of-type {
     width: 80%;
